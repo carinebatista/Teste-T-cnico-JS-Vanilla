@@ -1,3 +1,8 @@
+// To-do:
+// - Implementação de Sass no projeto 
+// - Campo de busca
+// - Refatoração do código 
+
 (function() {
     document.addEventListener("DOMContentLoaded", function () {
         const themeList = document.getElementById("themeList");
