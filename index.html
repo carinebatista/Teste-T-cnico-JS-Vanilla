@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciador de Temas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gerenciador de Temas</h1>
+    <button id="newThemeButton" class="newTheme">Novo Tema</button>
+  </header>
+  <div id="themeList">
+  </div>
+
+	<div id="editModal" class="modal">
+		<div class="modal-content">
+		<span class="close">&times;</span>
+		<h2></h2>
+		<form id="themeForm">
+			<label for="themeName">Nome do Tema:</label>
+			<input type="text" id="themeName" name="themeName" required><br><br>
+			
+			<label for="primaryColor">Primary Color:</label>
+			<input type="color" id="primaryColor" name="primaryColor" required><br><br>
+			
+			<label for="secondaryColor">Secondary Color:</label>
+			<input type="color" id="secondaryColor" name="secondaryColor" required><br><br>
+			
+			<label for="successColor">Success Color:</label>
+			<input type="color" id="successColor" name="successColor" required><br><br>
+			
+			<label for="dangerColor">Danger Color:</label>
+			<input type="color" id="dangerColor" name="dangerColor" required><br><br>
+			
+			<label for="warningColor">Warning Color:</label>
+			<input type="color" id="warningColor" name="warningColor" required><br><br>
+			
+			<button id="saveChangesButton" class="saveChanges" type="submit">Salvar Alterações</button>
+		  </form>
+		</div>
+	</div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
